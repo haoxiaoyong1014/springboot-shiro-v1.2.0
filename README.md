@@ -11,6 +11,8 @@ spring boot + mybatis + shiro + layui 搭建的后台权限管理系统
 
 * 密码输错次数过多,暂停使用该账户
 
+* 开启 shiro 注解方式控制权限(如: 如@RequiresRoles,@RequiresPermissions)
+
 * 统一异常处理
 
 
