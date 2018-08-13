@@ -9,7 +9,7 @@ spring boot + mybatis + shiro + layui 搭建的后台权限管理系统
 
 * rememberMe(记住我)
 
-* 密码输错次数过多,暂停使用账户
+* 密码输错次数过多,暂停使用该账户
 
 * 统一异常处理
 
