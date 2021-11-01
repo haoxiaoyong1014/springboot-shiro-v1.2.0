@@ -18,13 +18,13 @@ spring boot + mybatis + shiro + layui 搭建的后台权限管理系统
 
 登录账号: wyait
 
-登录手机号: 18516596566
+登录手机号: 12316596566    ~~18516596566~~
 
 登录密码: 654321
 
-手机验证码: 181907
+手机验证码: 暂不效验      ~~181907~~
 
-这些数据在 wyait.spl 中都有.
+数据在wyait.spl中.
 
 ![image](https://github.com/haoxiaoyong1014/springboot-shiro-v1.2.0/raw/master/src/main/java/com/wyait/manage/images/wyait.jpeg)
 
