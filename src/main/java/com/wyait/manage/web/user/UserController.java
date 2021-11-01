@@ -179,7 +179,7 @@ public class UserController {
 	 */
 	@RequestMapping(value = "/delUser", method = RequestMethod.POST)
 	@ResponseBody
-	@RequiresPermissions("delUsers")
+	@RequiresPermissions("system")
 	public String delUser(@RequestParam("id") Integer id,
 			@RequestParam("version") Integer version) {
 		logger.debug("删除用户！id:" + id);

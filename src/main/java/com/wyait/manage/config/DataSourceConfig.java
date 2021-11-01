@@ -32,7 +32,7 @@ public class DataSourceConfig {
 	 * @return
 	 */
 	@Bean(name = "testDataSource")
-	@ConfigurationProperties(prefix = "slave.datasource.test")// prefix值必须是application.properteis中对应属性的前缀
+	@ConfigurationProperties(prefix = "spring.datasource")// prefix值必须是application.properteis中对应属性的前缀  slave.datasource.test
 	@Primary
 	public DataSource testDataSource() {
 		return DataSourceBuilder.create().build();
