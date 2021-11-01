@@ -190,6 +190,25 @@
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
+
+
+        <!--数据库文档核心依赖-->
+       <!-- <dependency>
+            <groupId>cn.smallbun.screw</groupId>
+            <artifactId>screw-core</artifactId>
+            <version>1.0.5</version>
+        </dependency>
+        &lt;!&ndash; HikariCP &ndash;&gt;
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>3.4.5</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.20</version>
+        </dependency>-->
     </dependencies>
 
 
