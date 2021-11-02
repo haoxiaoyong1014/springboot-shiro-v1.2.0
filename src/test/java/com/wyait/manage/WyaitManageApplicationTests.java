@@ -1,20 +1,8 @@
 package com.wyait.manage;
-
-import cn.smallbun.screw.core.Configuration;
-import cn.smallbun.screw.core.engine.EngineConfig;
-import cn.smallbun.screw.core.engine.EngineFileType;
-import cn.smallbun.screw.core.engine.EngineTemplateType;
-import cn.smallbun.screw.core.execute.DocumentationExecute;
-import cn.smallbun.screw.core.process.ProcessConfig;
-import com.zaxxer.hikari.HikariConfig;
-import com.zaxxer.hikari.HikariDataSource;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import javax.sql.DataSource;
-import java.util.ArrayList;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -24,7 +12,7 @@ public class WyaitManageApplicationTests {
 	public void contextLoads() {
 	}
 
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 
 		//数据源
 		HikariConfig hikariConfig = new HikariConfig();
@@ -90,5 +78,5 @@ public class WyaitManageApplicationTests {
 		//执行生成
 		new DocumentationExecute(config).execute();
 	}
-
+*/
 }
